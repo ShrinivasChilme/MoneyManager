@@ -1,0 +1,14 @@
+spring.datasource.url=jdbc:postgresql://dpg-d2ndhdu3jp1c73chh97g-a.singapore-postgres.render.com/moneymanager_czzg
+spring.datasource.username=moneymanager_czzg_user
+spring.datasource.password=VkUWM6L7xBEd9bmqa768JWUbTIf2eyNj
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+
+spring.profiles.active=prod
+
+logging.level.org.hibernate.SQL=DEBUG
+logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE
